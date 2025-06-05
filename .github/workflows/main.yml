@@ -16,7 +16,7 @@ jobs:
     - name: Build Kernel
       uses: leod3c11/kernel_build_action@main
       with:
-        kernel-url: https://github.com/Leod3c11/PixelOSQPR3.git
+        kernel-url: https://${{ secrets.GH_PAT }}@github.com/Leod3c11/PixelOSQPR3.git
         kernel-dir: main
         kernel-branch: main
         config: exynos9830-r8slte_defconfig
