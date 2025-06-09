@@ -78,8 +78,8 @@ jobs:
           --header_version 2 \
           --kernel build/out/$MODEL/Image \
           --kernel_offset 0x00008000 \
-          --os_patch_level 2025-03 \
-          --os_version 15.0.0 \
+          --os_patch_level 2024-01 \
+          --os_version 14.0.0 \
           --pagesize 2048 \
           --ramdisk build/out/$MODEL/ramdisk.cpio.gz \
           --ramdisk_offset 0x01000000 \
