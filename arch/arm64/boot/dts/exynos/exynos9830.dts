@@ -2410,7 +2410,7 @@
 			governor = <SIMPLE_INTERACTIVE>;
 
 			dfs_id = <ACPM_DVFS_MIF>;
-			acpm-ipc-channel = <1>;
+			acpm-ipc-channel = <0>;
 			use_acpm = "true";
 //			update_fvp = "true";
 
@@ -2422,7 +2422,7 @@
 
 			use_alt_dvfs;
 			use_migov = "true";
-			polling_ms = <0>;
+			polling_ms = <5>;
 			alt_mode {
 				default_mode = <0>;
 				mode_0 {
