@@ -1130,7 +1130,7 @@ void sec_bootstat_get_cpuinfo(int *freq, int *online)
 /*********************************************************************
  *                  INITIALIZE EXYNOS CPUFREQ DRIVER                 *
  *********************************************************************/
-static int cpu_undervolt = 100000;
+static int cpu_undervolt = 125000;
 static void print_domain_info(struct exynos_cpufreq_domain *domain)
 {
 	int i;
