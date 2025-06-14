@@ -230,7 +230,7 @@
 				thrd_mb = <4253457>;
 				freq_mfc = <666000>;
 				freq_int = <533000>;
-				freq_mif = <2730000>;
+				freq_mif = <3172000>;
 				time_fw = <209>;
 				bts_scen = "mfc_8k_dec30";
 			};
@@ -310,7 +310,7 @@
 			freq_cluster = <1742000 1898000 1456000>;
 			freq_mfc = <666000>;
 			freq_int = <534000>;
-			freq_mif = <2730000>;
+			freq_mif = <3172000>;
 			bts_scen = "mfc_uhd_10bit";
 		};
 	};
