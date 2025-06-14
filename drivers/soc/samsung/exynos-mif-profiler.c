@@ -286,7 +286,7 @@ static int register_export_fn(u32 *max_freq, u32 *min_freq, u32 *cur_freq)
 	exynos_devfreq_get_freq_infos(profiler.devfreq_type, freq_infos);
 
 	*max_freq = freq_infos->max_freq;		/* get_org_max_freq(void) */
-//	*max_freq = 3172000;
+	*max_freq = 3172000;
 	*min_freq = freq_infos->min_freq;		/* get_org_min_freq(void) */
 	*cur_freq = *freq_infos->cur_freq;		/* get_cur_freq(void)	  */
 	profiler.table_cnt = freq_infos->max_state;	/* get_freq_table_cnt(void)  */
